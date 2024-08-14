@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Inter',sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.container{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    min-width: 337.525px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container p,h1,a{
+    color: white;
+}
+figure,figcaption,.contact-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+figure img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.profile-name{
+    font-weight: 400;
+}
+figure .profile-address{
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.profile-description::before,.profile-description::after{
+    content: '"';
+}
+.contact-links{
+    margin-bottom: 20px;
+}
+.contact-links a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.links{
+    background-color: hsl(0, 0%, 20%);
+    width: calc(100% - 70px);
+    font-weight: 700;
+    padding: 12px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.links:hover,:focus             {
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+}
